@@ -1,0 +1,46 @@
+/* Estilo general */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* Estilo del contenedor */
+div {
+    text-align: center;
+    margin: auto;
+    max-width: 600px;
+}
+
+/* Título del producto */
+h1.producto {
+    color: green;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Enlace de compra */
+a.link-compra {
+    color: purple;
+    text-decoration: underline;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Descripción del producto */
+p.descripcion {
+    color: red;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+/* Imagen del producto */
+#imagen-producto {
+    width: 500px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
